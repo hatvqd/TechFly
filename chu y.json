@@ -1,0 +1,7 @@
+- Presenter: Custom format attributed in view
+- Rule request validate: Validate input before go to controller
+- View composers: are callbacks or class methods that are called when a view is rendered => register in AppServiceProvider file.
+
+
+
+- add columns: php artisan make:migration add_shipped_via_and_terms_colums_to_purchase_orders_table --table=purchase_orders
