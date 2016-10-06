@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use App\View\ThemeViewFinder;
 use App\view\Composers\AddStatusMessage;
 use App\view\Composers\AddAdminUser;
-use App\view\Composers\InjectPages;
+use App\Http\ViewComposers\InjectPages;
 use App\view\Composers\InjectRecentPosts;
 
 class AppServiceProvider extends ServiceProvider
