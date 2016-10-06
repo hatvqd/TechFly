@@ -11,10 +11,10 @@
                     <div class="col-xs-12">
                         <div class="nav breadcrumb-bar">
                             <nav class="breadcrumb">
-                            	<a href="http://techfly.com.vn">Home</a>
+                            	<a href="{{url('/')}}">HOME</a>
                             <span> / </span>
-                            <a href="http://bay5chau.com/gioi-thieu-1/">Giới thiệu</a> 
-                            <span> / </span>  Giới thiệu
+                            <a href="">{{ $pageTitle }}</a> 
+                            <span> / </span>  {{ $post->title }}
                             </nav>
                         </div>
                     </div>

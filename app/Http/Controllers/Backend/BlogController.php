@@ -5,15 +5,20 @@ namespace App\Http\Controllers\Backend;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Post;
+use App\Model\Term;
 
 class BlogController extends Controller
 {
 
     protected $posts;
+    protected $terms;
 
-    public function __construct(Post $posts)
+    public function __construct(Post $posts, Term $terms)
     {
         $this->posts = $posts;
+
+        $this->terms = $terms;
+
         parent::__construct();
     }
 
@@ -36,8 +41,11 @@ class BlogController extends Controller
      */
     public function create(Post $post)
     {
+        $terms = $this->getTerms();
+
         $fileBrowseUrl = config('medias.url');
-        return view('backend.blog.form', compact('post', 'fileBrowseUrl'));
+
+        return view('backend.blog.form', compact('post', 'fileBrowseUrl', 'terms'));
     }
 
     /**
@@ -49,7 +57,8 @@ class BlogController extends Controller
     public function store(Requests\StorePostRequest $request)
     {
         $this->posts->create(
-            ['author_id' => auth()->user()->id] + $request->only('title', 'slug', 'published_at', 'body', 'excerpt')
+            ['author_id' => auth()->user()->id] + 
+            $request->only('title', 'slug', 'published_at', 'body', 'excerpt', 'term_id')
         );
 
         return redirect(route('backend.blog.index'))->with('status', 'Post has been created.');
@@ -76,9 +85,11 @@ class BlogController extends Controller
     {
         $post = $this->posts->findOrFail($id);
 
+        $terms = $this->getTerms();
+
         $fileBrowseUrl = config('medias.url');
 
-        return view('backend.blog.form', compact('post', 'fileBrowseUrl'));
+        return view('backend.blog.form', compact('post', 'fileBrowseUrl', 'terms'));
     }
 
     /**
@@ -92,7 +103,7 @@ class BlogController extends Controller
     {
         $post = $this->posts->findOrFail($id);
 
-        $post->fill($request->only('title', 'slug', 'published_at', 'body', 'excerpt'))->save();
+        $post->fill($request->only('title', 'slug', 'published_at', 'body', 'excerpt', 'term_id'))->save();
 
         return redirect(route('backend.blog.edit', $post->id))->with('status', 'Post has been updated.');
     }
@@ -117,5 +128,10 @@ class BlogController extends Controller
         $post->delete();
 
         return redirect(route('backend.blog.index'))->with('status', 'Post has been deleted.');
+    }
+
+    protected function getTerms() 
+    {
+        return $this->terms->get();
     }
 }

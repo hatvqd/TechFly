@@ -12,9 +12,9 @@ class AddAuthorIdColumnsToPostsTable extends Migration
      */
     public function up()
     {
-        Schema::table('posts', function (Blueprint $table) {
-            $table->integer('author_id');
-        });
+        // Schema::table('posts', function (Blueprint $table) {
+        //     $table->integer('author_id');
+        // });
     }
 
     /**
@@ -24,8 +24,8 @@ class AddAuthorIdColumnsToPostsTable extends Migration
      */
     public function down()
     {
-        Schema::table('posts', function (Blueprint $table) {
-            //
-        });
+        // Schema::table('posts', function (Blueprint $table) {
+        //     //
+        // });
     }
 }

@@ -25,6 +25,15 @@
         {!! Form::text('slug', null, ['class' => 'form-control']) !!}
     </div>
 
+     <div class="form-group row">
+        <div class="col-md-12">
+            {!! Form::label('category') !!}
+        </div>
+        <div class="col-md-4">
+            {!! Form::select('term_id', $terms->lists('name', 'id')->toArray(), null, ['class' => 'form-control']) !!}
+        </div>
+    </div>
+
     <div class="form-group row">
         <div class="col-md-12">
             {!! Form::label('published_at') !!}

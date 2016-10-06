@@ -32,7 +32,7 @@
                         <ul id="menu-footer-menu-vi" class="menu">
                             <li><a href="">Tin tức</a></li>
                             <li><a href="">Ý kiến khách hàng</a></li>
-                            <li><a href="http://techfly.com/lien-he/">Liên hệ</a></li>
+                            <li><a href="{{url('/')}}">Liên hệ</a></li>
                         </ul>
                     </div>
                 </div>

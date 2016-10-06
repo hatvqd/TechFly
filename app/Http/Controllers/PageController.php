@@ -38,8 +38,11 @@ class PageController extends Controller
         if($page->name) {
             $parameters['term'] = $page->name;
         }
-        $template->prepare($view = view($view), $parameters);
+        $viewRender = view($view);
+        $viewRender->with('pageTitle', $page->title);
+        $viewRender->with('pageUrl', $page->url);
+        $template->prepare($viewRender, $parameters);
         //$view->with('page', $page);
-        $page->view = $view;
+        $page->view = $viewRender;
     }
 }

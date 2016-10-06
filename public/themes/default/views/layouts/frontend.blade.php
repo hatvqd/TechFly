@@ -41,7 +41,7 @@
                                 </p>
                             </div>
                             <div class="visible-xs logo_mobile">
-                                <a href="http://techfly.com.vn">TECHFLY.COM.VN</a>
+                                <a href="{{url('/')}}">TECHFLY.COM.VN</a>
                             </div>
                             <div class="top-hotline"> Hotline: 098 831 0405</div>
                         </div>
@@ -73,7 +73,7 @@
 
         <div class="blank hidden"></div>
 
-        <div class="container" style="width: 100%">
+        <div class="row">
             @yield('content')
         </div>
       

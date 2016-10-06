@@ -21,11 +21,6 @@ class BlogTemplate extends AbstractTemplate
     {
         $posts = array();
         if($parameters['term']) {
-            // $posts = $this->posts->with(array('term' => function($query) use ($parameters) {
-            //                     $query->where('slug', '=', $parameters['term']);
-            //                 }))
-            //                 ->orderBy('published_at', 'desc')
-            //                 ->paginate(10);
             $posts = $this->posts->whereHas('term', function($q) use($parameters) {
                                 $q->where('slug', '=', $parameters['term']);
                             })

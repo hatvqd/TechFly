@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('title', 'Welcome')
+ @section('title', 'Welcome')
 
 
 @section('content')
@@ -10,3 +10,4 @@
         @include('templates.page')
   @endif
 @endsection
+ 

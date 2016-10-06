@@ -1,6 +1,6 @@
 <div class="block tour">
     <h3 class="post_lienquan">DANH MỤC LIÊN QUAN</h3>
-    <div class="block popular-post">
+    {{-- <div class="block popular-post">
         <div class="item">
                 <div class="col-md-4">
                   
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-    </div>
+    </div> --}}
 </div>
 <div class="block popular-post">
     <h3>NHỮNG BÀI VIẾT GẦN ĐÂY:</h3>
