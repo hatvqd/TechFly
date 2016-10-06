@@ -4,10 +4,10 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use App\View\ThemeViewFinder;
-use App\view\Composers\AddStatusMessage;
-use App\view\Composers\AddAdminUser;
+use App\Http\ViewComposers\AddStatusMessage;
+use AAp\Http\ViewComposers\AddAdminUser;
 use App\Http\ViewComposers\InjectPages;
-use App\view\Composers\InjectRecentPosts;
+use App\Http\ViewComposers\InjectRecentPosts;
 
 class AppServiceProvider extends ServiceProvider
 {
