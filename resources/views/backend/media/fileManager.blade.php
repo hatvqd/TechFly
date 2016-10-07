@@ -3,6 +3,7 @@
 @section('title', 'File Manager')
 
 @section('head')
+
 	<style type="text/css">
 
 			.iframe-responsive-wrapper {
@@ -32,6 +33,7 @@
 			}
 
 	</style>
+	
 @endsection
 
 @section('content')
