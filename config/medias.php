@@ -8,6 +8,6 @@ return [
 	| Url for filemanager
 	|--------------------------------------------------------------------------
 	*/
-	'url' => 'fileManager/index.html',
-	'url-files' => '/public/fileManager/userFiles/'
+	'url' => 'filemanager/index.html',
+	'url-files' => '/public/filemanager/userFiles/'
 ];
