@@ -11,6 +11,6 @@ class MediaController extends Controller
 	 public function fileManager(){
 	 	$url = config('medias.url') . '?langCode=' . config('app.locale');
 		
-		return view("backend.media.filemanager", compact('url'));
+		return view("backend.media.fileManager", compact('url'));
 	}
 }
