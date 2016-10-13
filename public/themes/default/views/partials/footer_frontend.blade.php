@@ -8,7 +8,7 @@
                 <p>Địa chỉ phòng vé</p>
                 <p><i>308/ 47 Hoàng Văn Thụ, P.4, Q. Tân Bình, TP. Hồ Chí Minh </i></p>
                 <p><i>Mobile: <span>0903.444.680</span></i></p>
-                <p><i>Email: techfly@gmail.com</i></p>
+                <p><i>Email: @gmail.com</i></p>
             </div>
             <div class="col-md-5 col-sm-5">
                 <div class="left">

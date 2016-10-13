@@ -539,8 +539,11 @@ footer#footer {
 
 /*RESPONSIVE*/
 @media (min-width: 992px) {
+  .homeimg {
+    height: 350px;
+  }
   .container {
-    /*width: 960px;*/ } }
+    /*width: 960px;*/ } media}
 @media (max-width: 1200px) {
   .ls-bottom-nav-wrapper {
     padding-left: calc((100% - 960px) / 2); } }
@@ -941,7 +944,7 @@ footer#footer {
 /*about*/
 /*RESPONSIVE*/
 @media (min-width: 477px) {
-  
+ 
 
   .logo_mobile{
     display: none!important;
@@ -963,6 +966,9 @@ footer#footer {
   }
 }
 @media (max-width: 768px) {
+   .homeimg {
+    height: 150px;
+  }
   .mainnav.contact {
     height: 200px; }
 

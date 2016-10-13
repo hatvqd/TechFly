@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-md-12" style="position: relative; background-image: url({{ theme('images/homepage.jpg') }}); background-size: 100%; height: 100%">
+    <div class="col-md-12 homeimg" style="position: relative; background-image: url({{ theme('images/slidebay.jpg') }}); background-size: 100%;">
         
     </div>
 </div>

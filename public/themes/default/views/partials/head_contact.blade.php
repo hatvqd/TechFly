@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-3 col-sm-2 logo">
-            <a href="http://bay5chau.com">
+            <a href="{{url('/')}}">
                 <img style="border: none;" class="img-responsive" src="{{ theme('images/logo.png') }}">
             </a>
         </div>
