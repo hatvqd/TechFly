@@ -6,10 +6,9 @@
                     ĐẠI LÝ VÉ MÁY BAY TECHFLY
                 </h2>
                 <p>Địa chỉ phòng vé</p>
-                <p><i>158 Điện Biên Phủ, Phường 6, Quận 3, TP HCM</i></p>
-                <p><i>Điện thoại: <span>(08)62991385</span> - <span> (08)62991386</span></i></p>
-                <p><i>Mobile/Zalo/Viber: <span>0909 501 401</span></i></p>
-                <p><i>Email: vmbthiendang@gmail.com</i></p>
+                <p><i>308/ 47 Hoàng Văn Thụ, P.4, Q. Tân Bình, TP. Hồ Chí Minh </i></p>
+                <p><i>Mobile: <span>0903.444.680</span></i></p>
+                <p><i>Email: techfly@gmail.com</i></p>
             </div>
             <div class="col-md-5 col-sm-5">
                 <div class="left">

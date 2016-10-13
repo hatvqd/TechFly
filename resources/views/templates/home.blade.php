@@ -1,58 +1,54 @@
 <div class="row">
-    <div class="col-md-12" style="background-image: url({{ theme('images/homepage.jpg') }}); background-size: 100%; height: 320px">
+    <div class="col-md-12" style="position: relative; background-image: url({{ theme('images/homepage.jpg') }}); background-size: 100%; height: 100%">
         
     </div>
 </div>
 
 
-<div class="row">
-    <div class="intro-service" >
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3 item">
-                    <div class="img">
-                        <img src="{{ theme('images/icon-intro-1.png') }}" alt="Xử lý hồ sơ nhanh">
-                    </div>
-                    <div class="text">
-                        <h2>BÁO GIÁ NHANH</h2>
-                        <p>Báo giá rẻ nhất, nhanh chóng và chính xác chỉ với 1 cuộc gọi</p>
-                    </div>
-                </div><!-- item -->
-                <div class="col-sm-3 item">
-                    <div class="img">
-                        <img src="{{ theme('images/support.png') }}" alt="Chia sẻ thông tin">
-                    </div>
-                    <div class="text">
-                        <h2>HỔ TRỢ 24/7</h2>
-                        <p>Phục vụ khách hàng 24/7 tất cả các ngày trong tuần qua hotline 0909501401</p>
-                    </div>
-                </div><!-- item -->
-                <div class="col-sm-3 item">
-                    <div class="img">
-                        <img src="{{ theme('images/mony.png') }}">
-                    </div>
-                    <div class="text">
-                        <h2>GIÁ VÉ TỐT NHẤT</h2>
-                        <p>Cam kết giá vé rẻ nhất, đặc biệt tuyến đường đi Mỹ, Úc, Âu.</p>
-                    </div>
+<div class="intro-service" >
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 item">
+                <div class="img">
+                    <img src="{{ theme('images/icon-intro-1.png') }}" alt="Xử lý hồ sơ nhanh">
                 </div>
-                <div class="col-sm-3 item">
-                    <div class="img">
-                        <img src="{{ theme('images/shipping.png') }}">
-                    </div>
-                    <div class="text">
-                        <h2>GIAO VÉ MIỄN PHÍ</h2>
-                        <p>Giao vé tận nơi trong nội thành thành phố Hồ Chí Minh hoàn toàn miễn phí.</p>
-                    </div>
+                <div class="text">
+                    <h2>BÁO GIÁ NHANH</h2>
+                    <p>Báo giá rẻ nhất, nhanh chóng và chính xác chỉ với 1 cuộc gọi</p>
+                </div>
+            </div><!-- item -->
+            <div class="col-sm-3 item">
+                <div class="img">
+                    <img src="{{ theme('images/support.png') }}" alt="Chia sẻ thông tin">
+                </div>
+                <div class="text">
+                    <h2>HỔ TRỢ 24/7</h2>
+                    <p>Phục vụ khách hàng 24/7 tất cả các ngày trong tuần qua hotline 0909501401</p>
+                </div>
+            </div><!-- item -->
+            <div class="col-sm-3 item">
+                <div class="img">
+                    <img src="{{ theme('images/mony.png') }}">
+                </div>
+                <div class="text">
+                    <h2>GIÁ VÉ TỐT NHẤT</h2>
+                    <p>Cam kết giá vé rẻ nhất, đặc biệt tuyến đường đi Mỹ, Úc, Âu.</p>
+                </div>
+            </div>
+            <div class="col-sm-3 item">
+                <div class="img">
+                    <img src="{{ theme('images/shipping.png') }}">
+                </div>
+                <div class="text">
+                    <h2>GIAO VÉ MIỄN PHÍ</h2>
+                    <p>Giao vé tận nơi trong nội thành thành phố Hồ Chí Minh hoàn toàn miễn phí.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-
  {{-- news --}}
-<div class="row">
 <div class="news">
     <div class="container">
         <div class="row">
@@ -85,7 +81,6 @@
             </div>
         </div>
     </div>
-</div>
 </div>
 <div class="row">
     <div class="container">
