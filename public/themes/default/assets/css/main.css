@@ -541,6 +541,7 @@ footer#footer {
 @media (min-width: 992px) {
   .homeimg {
     height: 350px;
+    background-repeat: no-repeat;
   }
   .container {
     /*width: 960px;*/ } media}
@@ -967,7 +968,7 @@ footer#footer {
 }
 @media (max-width: 768px) {
    .homeimg {
-    height: 150px;
+    height: 100px;
   }
   .mainnav.contact {
     height: 200px; }
