@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-3 col-sm-2 logo">
             <a href="{{url('/')}}">
-                <img style="border: none;" class="img-responsive" src="{{ theme('images/logo.png') }}">
+                {{-- <img style="border: none;" class="img-responsive" src="{{ theme('images/logo.png') }}"> --}}
             </a>
         </div>
         <div class="col-md-6 col-sm-6 suport-header pull-right text-right">
