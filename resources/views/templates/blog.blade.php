@@ -42,13 +42,13 @@
 	            		<span class="post_time">{{ $post->published_date }}</span>
 	            		<blockquote>
 	            			<footer> 
-iu
+
 	            				{!! $post->short_content !!} 
 
 	            				<div style="padding-bottom:20px; padding-top:10px;" class="hupso-share-buttons">
 	            				</div>
 	            			</footer>
-	            			<a href="{{ route('blog.post', [$post->id, $post->;lv ]) }}" class="detail">Xem thêm</a>
+	            			<a href="{{ route('blog.post', [$post->id, $post->slug]) }}" class="detail">Xem thêm</a>
 	            		</blockquote>
 	            	</div>
             	</div>
