@@ -20,6 +20,18 @@
 
     </head>
     <body class="home blog">
+
+        <div id="fb-root"></div>
+        <script>
+            (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=226108041127896";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
         <nav id="my-menu" class="mm-menu mm-horizontal mm-offcanvas">
             <div class="menu-main-menu-vi-container mm-panel mm-opened mm-current" id="mm-0">
                 <div class="menu-main-menu-vi-container">

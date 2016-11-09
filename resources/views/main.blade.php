@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
- @section('title', 'Cty TNHH Thương mại và Du lịch TechFly')
+ @section('title', 'Cty TNHH Thương mại và Du lịch ')
 
 
 @section('content')
