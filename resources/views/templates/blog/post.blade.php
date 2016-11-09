@@ -42,7 +42,12 @@
 
                 <div class="clearfix"></div>
                 <div class="share">
-
+                        <div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
                 </div>
             </div><!-- left content -->
         </div>
